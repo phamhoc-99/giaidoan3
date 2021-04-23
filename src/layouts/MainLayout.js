@@ -5,7 +5,7 @@ import Footer from '../components/Footer/index';
 const MainLayout=props=>{
 return(
     <div>
-        <Header/>
+        <Header {...props}/>
          <div className="main">{props.children}</div>   {/*component nho long trong component lon*/}
         <Footer/>
     </div>
